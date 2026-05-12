@@ -1,0 +1,6 @@
+sku|product|inventory_value|reorder_needed|stock_status
+A100|Laptop Stand|200|True|low
+B200|Wireless Mouse|720|False|healthy
+C300|Keyboard|0|True|critical
+E500|USB Dock|720|False|healthy
+G700|Webcam|1125|False|healthy

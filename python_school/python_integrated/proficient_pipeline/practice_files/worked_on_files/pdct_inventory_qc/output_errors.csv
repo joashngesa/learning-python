@@ -1,0 +1,6 @@
+error_reason|count
+quantity should be greater than zero|1
+categories only allowed records are electronics,furniture,clothing|2
+quantity should be integer|1
+duplicate stock|1
+unit_cost should be integer|1

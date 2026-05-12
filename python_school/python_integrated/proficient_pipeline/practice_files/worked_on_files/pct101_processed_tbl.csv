@@ -1,0 +1,4 @@
+order_id;product;revenue;category
+1001;Laptop;1200.0;high_value
+1002;Mouse;100.0;low_value
+1006;Headset;450.0;medium value

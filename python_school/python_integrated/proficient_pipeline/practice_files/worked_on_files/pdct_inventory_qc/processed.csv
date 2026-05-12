@@ -1,0 +1,3 @@
+item_id|warehouse|category|quantity|unit_cost|inventory_value|stock_level
+I001|W1|electronics|50|300|15000|medium_stock
+I005|W3|clothing|100|25|2500|high_stock

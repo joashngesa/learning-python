@@ -1,0 +1,6 @@
+signup_id|name|email|age|plan|error reasons
+S002|Brian|brian@mail.com|17|basic|age should be above 18
+S003||claire@mail.com|31|premium|the name should be a non_empty string
+S004|David|amina@mail.com|28|basic|duplicate email
+S005|Eve|eve@mail.com||premium|the age should be integer
+S006|Frank|frank@mail.com|44|gold|plan should be either basic or premium

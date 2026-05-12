@@ -1,0 +1,7 @@
+item_id|warehouse|category|quantity|unit_cost|supplier|error_reason
+I002|W1|furniture|-5|120|S2|quantity should be greater than zero
+I003|W2||20|80|S1|categories only allowed records are electronics,furniture,clothing
+I004|W2|electronics||200|S3|quantity should be integer
+I006|W3|toys|40|15|S4|categories only allowed records are electronics,furniture,clothing
+I001|W1|electronics|70|300|S1|duplicate stock
+I008|W2|furniture|10||S2|unit_cost should be integer

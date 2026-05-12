@@ -1,0 +1,4 @@
+sku|product|units_in_stock|reorder_point|unit_cost
+D400|Monitor||5|120
+F600|Headset|3|8|-15
+H800|Microphone|||

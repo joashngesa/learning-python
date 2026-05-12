@@ -1,0 +1,12 @@
+sku|product|units_in_stock|reorder_point|unit_cost
+A100|Laptop Stand|8|10|25
+B200|Wireless Mouse|40|15|18
+C300|Keyboard|0|12|30
+D400|Monitor||5|120
+E500|USB Dock|12|12|60
+F600|Headset|3|8|-15
+G700|Webcam|25|10|45
+H800|Microphone|abc|6|35
+
+
+

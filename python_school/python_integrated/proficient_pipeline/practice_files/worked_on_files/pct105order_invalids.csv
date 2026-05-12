@@ -1,0 +1,5 @@
+order_id,product,price,qty,file_source
+3003,Keyboard,-80,2,file_x
+3004,Monitor,,2,file_x
+,Lamp,,,file_y
+4004,Cable,20,0,file_y

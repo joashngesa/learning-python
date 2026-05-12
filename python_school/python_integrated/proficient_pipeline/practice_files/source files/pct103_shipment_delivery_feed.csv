@@ -1,0 +1,9 @@
+shipment_id,route,planned_days,actual_days,shipping_cost
+5001,North,3,2,120
+5002,West,5,7,200
+5003,East,4,4,150
+5004,South,,6,180
+5005,Central,2,0,90
+5006,North,6,8,-50
+5007,West,abc,5,110
+5008,East,7,9,250

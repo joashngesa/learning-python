@@ -1,0 +1,5 @@
+shipment_id,route,delay_days,delivery_status,shipping_cost
+5001,North,-1,early,120.0
+5002,West,2,late,200.0
+5003,East,0,on_time,150.0
+5008,East,2,late,250.0

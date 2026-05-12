@@ -1,0 +1,3 @@
+order_id|customer_id|product|region|category|price|qty|error_reasons
+1001|C001|Laptop|North|Electronics|1200|1|duplicate order_id & customer_id
+1004|C004|Chair|East|Furniture|150|4|duplicate order_id & customer_id

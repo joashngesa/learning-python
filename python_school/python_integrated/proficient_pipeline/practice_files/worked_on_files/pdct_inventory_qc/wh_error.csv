@@ -1,0 +1,7 @@
+warehouse|error_reason|count
+W1|quantity should be greater than zero|1
+W2|categories only allowed records are electronics,furniture,clothing|1
+W2|quantity should be integer|1
+W3|categories only allowed records are electronics,furniture,clothing|1
+W1|duplicate stock|1
+W2|unit_cost should be integer|1

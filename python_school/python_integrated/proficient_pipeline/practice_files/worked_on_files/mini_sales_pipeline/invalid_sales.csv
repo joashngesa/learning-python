@@ -1,0 +1,7 @@
+order_id|customer_id|product|region|category|price|qty|error_reasons
+1001|C001|Laptop|North|Electronics|1200|1|duplicate order_id & customer_id
+1006|C006|Monitor|South|Electronics||2|the price needs to be a non_empty number
+1007|C007|Table|West|Furniture|500||quantity needs to be a non_empty number
+1008|C008|Phone|South|Electronics|-800|1|the price should be greater than zero
+1009||Mouse|East|Electronics|40|3|the customer_id needs to be a non_empty string
+1004|C004|Chair|East|Furniture|150|4|duplicate order_id & customer_id

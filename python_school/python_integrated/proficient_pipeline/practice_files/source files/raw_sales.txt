@@ -1,0 +1,13 @@
+order_id|customer_id|product|region|category|price|qty
+1001|C001|Laptop|North|Electronics|1200|1
+1002|C002|Phone|South|Electronics|800|2
+1003|C003|Desk|North|Furniture|300|1
+1004|C004|Chair|East|Furniture|150|4
+1005|C005|Laptop|North|Electronics|1200|1
+1001|C001|Laptop|North|Electronics|1200|1
+1006|C006|Monitor|South|Electronics|abc|2
+1007|C007|Table|West|Furniture|500|
+1008|C008|Phone|South|Electronics|-800|1
+1009||Mouse|East|Electronics|40|3
+1010|C010|Chair|East|Furniture|150|4
+1004|C004|Chair|East|Furniture|150|4

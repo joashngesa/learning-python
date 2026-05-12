@@ -1,0 +1,5 @@
+order_id|product|revenue|category
+1001|Laptop|1200.0|high
+1002|Mouse|100.0|low
+2001|Desk|600.0|medium
+2002|Chair|150.0|low

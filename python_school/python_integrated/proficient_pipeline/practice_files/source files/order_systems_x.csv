@@ -1,0 +1,5 @@
+order_id,product,price,qty
+3001,Laptop,1200,1
+3002,Mouse,25,4
+3003,Keyboard,-80,2
+3004,Monitor,,2
