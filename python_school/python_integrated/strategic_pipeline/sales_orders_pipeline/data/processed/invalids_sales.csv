@@ -1,0 +1,7 @@
+order_id|supplier_id|supplier_name|category|region|unit_cost|quantity|order_status|error_reasons
+PO1004|S004|GreenSource|Raw Materials|North|-20.0|30|delivered|unit_cost must be greater than 0
+PO1005|S005|BoxPro|Packaging|South|4.0|0|cancelled|quantity must be greater than zero
+PO1006|S002|PackRight|Packaging|West|5.0|200|pending|duplicate order_id & supplier_id
+PO1008|S007||Components|West|12.0|50|delivered|supplier_name must be non_empty string
+PO1009|S008|PrimeParts|Components|South||20|pending|unit_cost must be int
+PO1010|S009|RawHub|Raw Materials|North|60.0||delivered|quantity must be int

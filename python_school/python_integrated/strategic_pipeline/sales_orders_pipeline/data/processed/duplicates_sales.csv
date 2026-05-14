@@ -1,0 +1,2 @@
+order_id|supplier_id|supplier_name|category|region|unit_cost|quantity|order_status|error_reasons
+PO1006|S002|PackRight|Packaging|West|5.0|200|pending|duplicate order_id & supplier_id

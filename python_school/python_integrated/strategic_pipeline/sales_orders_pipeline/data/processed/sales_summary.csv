@@ -1,0 +1,8 @@
+supplier_name|category|total_cost|order_count
+NorthSteel|Raw Materials|500.0|
+PackRight|Packaging|1000.0|
+FastParts|Components|1200.0|
+PackRight|Packaging|1000.0|
+TransMove|Logistics|300.0|
+ShipNow|Logistics|180.0|
+MetalWorks|Raw Materials|350.0|

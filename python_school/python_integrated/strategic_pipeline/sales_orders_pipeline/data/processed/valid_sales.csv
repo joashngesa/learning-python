@@ -1,0 +1,8 @@
+order_id|supplier_id|supplier_name|category|region|unit_cost|quantity|order_status
+PO1001|S001|NorthSteel|Raw Materials|East|50.0|10|delivered
+PO1002|S002|PackRight|Packaging|West|5.0|200|pending
+PO1003|S003|FastParts|Components|East|15.0|80|delivered
+PO1006|S002|PackRight|Packaging|West|5.0|200|pending
+PO1007|S006|TransMove|Logistics|East|100.0|3|delivered
+PO1011|S010|ShipNow|Logistics|East|90.0|2|returned
+PO1012|S011|MetalWorks|Raw Materials|East|70.0|5|delivered
