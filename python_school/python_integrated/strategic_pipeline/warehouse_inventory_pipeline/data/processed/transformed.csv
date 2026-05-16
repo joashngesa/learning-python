@@ -1,0 +1,8 @@
+item_id|warehouse_id|warehouse_region|product_name|category|inventory_value|reorder_flag
+I1001|W001|East|Laptop|Electronics|10800.0|False
+I1002|W002|West|Mouse|Electronics|1500.0|False
+I1003|W001|East|Office Chair|Furniture|960.0|True
+I1009|W005|South|Filing Cabinet|Furniture|900.0|False
+I1010|W002|West|Mouse|Electronics|1500.0|False
+I1011|W006|East|Router|Networking|1200.0|False
+I1012|W006|East|Switch|Networking|720.0|True

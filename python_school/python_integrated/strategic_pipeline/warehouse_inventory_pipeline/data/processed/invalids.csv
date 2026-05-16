@@ -1,0 +1,8 @@
+item_id|warehouse_id|warehouse_region|product_name|category|unit_cost|stock_qty|reorder_level|stock_status
+I1001|W001|East|Laptop|Electronics|900.0|12|5|available
+I1002|W002|West|Mouse|Electronics|15.0|100|20|available
+I1003|W001|East|Office Chair|Furniture|120.0|8|10|low_stock
+I1009|W005|South|Filing Cabinet|Furniture|180.0|5|2|damaged
+I1010|W002|West|Mouse|Electronics|15.0|100|20|available
+I1011|W006|East|Router|Networking|80.0|15|5|available
+I1012|W006|East|Switch|Networking|120.0|6|8|low_stock

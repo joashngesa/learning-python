@@ -1,0 +1,6 @@
+warehouse_region|category|total_inventory_value|item_count|reorder_item_count
+East|Electronics|10800.0|1|0
+West|Electronics|3000.0|2|0
+East|Furniture|960.0|1|1
+South|Furniture|900.0|1|0
+East|Networking|1920.0|2|1

@@ -1,0 +1,7 @@
+item_id|warehouse_id|warehouse_region|product_name|category|unit_cost|stock_qty|reorder_level|stock_status|error_reasons
+I1004|W003|North|Desk|Furniture|-200.0|4|2|available|unit_cost should be greater than zero
+I1005|W002|West|Keyboard|Electronics|40.0|0|10|out_of_stock|stock_qty should be greater than zero
+I1006|W004|South|Printer|Electronics||7|3|available|unit_cost should be a number
+I1007|W001|East||Furniture|75.0|9|4|available|product_name should be non empty string
+I1008|W003|North|Monitor|Electronics|250.0||6|available|stock quantity should be integer
+I1010|W002|West|Mouse|Electronics|15.0|100|20|available|item_id & warehouse_id duplicates

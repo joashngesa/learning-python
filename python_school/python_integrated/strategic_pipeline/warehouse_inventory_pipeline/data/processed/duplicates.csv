@@ -1,0 +1,2 @@
+item_id|warehouse_id|warehouse_region|product_name|category|unit_cost|stock_qty|reorder_level|stock_status|error_reasons
+I1010|W002|West|Mouse|Electronics|15.0|100|20|available|item_id & warehouse_id duplicates
