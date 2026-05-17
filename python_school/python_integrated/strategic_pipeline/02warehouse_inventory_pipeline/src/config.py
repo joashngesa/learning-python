@@ -1,6 +1,4 @@
 
-#in the next lesson on modules, teach me more on how they interact with environments, help me understand the modules pathlib and dotenv and the concepts applied to code this, save this in memory for next lesson
-#in the next lesson, enlighten me on when we are going to learn about class and objects (at what stage in the blue print will be doing this)
 import os
 from pathlib import Path
 from dotenv import load_dotenv
