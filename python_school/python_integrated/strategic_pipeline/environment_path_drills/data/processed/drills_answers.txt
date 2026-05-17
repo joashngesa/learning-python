@@ -1,0 +1,10 @@
+drill 1:
+which python proves: it gives the python first in the PATH variable or the python that will run code if python is run
+python --version proves: the version of the python active in the present location/path.
+python -m pip --version proves:it gives the pip version and the environment path
+python -m pip list proves: lists the packages installed in the active environment, 
+	if there is no active environment, it will list the installed packages in the global env
+
+drill 4:
+	.env is ignored because it is in .gitignore meaning when the folders and the files are pushed to git hub, it is skipped
+
