@@ -1,0 +1,21 @@
+shipment_id | supplier_id | supplier_name | region | product | category | unit_cost | quantity | delivery_days | status
+SHP001 | SUP001 |  alpha supplies  | north | laptop stand | accessories | 35.50 | 10 | 3 | delivered
+SHP002 | SUP002 | Beta Traders | South | usb cable | accessories | 5.99 | 100 | 2 | delivered
+SHP003 | SUP003 | Gamma Goods | East | office chair | furniture | 85.00 | 5 | 8 | delayed
+SHP004 | SUP004 | Delta Logistics | West | monitor arm | accessories | -45.00 | 12 | 4 | delivered
+SHP005 | SUP005 | Echo Wholesale | North | desk lamp | furniture | 22.75 |  | 5 | delivered
+SHP006 | SUP006 | Foxtrot Supply | South | keyboard | electronics | abc | 20 | 3 | delivered
+SHP007 | SUP007 |  gamma goods | east | office chair | furniture | 85.00 | 5 | 8 | delayed
+SHP003 | SUP003 | Gamma Goods | East | office chair | furniture | 85.00 | 5 | 8 | delayed
+SHP008 |  | Indigo Partners | West | mouse pad | accessories | 3.50 | 200 | 1 | delivered
+SHP009 | SUP009 | Jupiter Mart | North | laptop dock | electronics | 120.00 | 0 | 2 | delivered
+SHP010 | SUP010 | Kilo Distributors | South | webcam | electronics | 60.00 | 15 | -1 | delivered
+SHP011 | SUP011 | Lima Office | East | filing cabinet | furniture | 150.00 | 4 | 12 | delayed
+bad row with missing delimiters
+SHP012 | SUP012 | Metro Supply | West | standing desk | furniture | 300.00 | 2 | 6 | cancelled
+SHP013 | SUP013 | Nova Traders | North | hdmi cable | accessories | 8.00 | 50 | 2 | delivered | extra field
+SHP014 | SUP014 | Oscar Goods | South | notebook | stationery | 2.50 | 300 | 3 | delivered
+SHP015 | SUP015 | Papa Office | East | printer paper | stationery | 6.25 | 80 | 4 | delivered
+SHP016 | SUP016 | Quebec Supply | West | projector | electronics | 450.00 | 1 | 7 | delayed
+SHP017 | SUP017 | Romeo Logistics | North | whiteboard | furniture | 75.00 | 3 | 5 | in_transit
+SHP018 | SUP018 | Sierra Goods | South | pens | stationery | 1.25 | 500 | 2 | delivered
