@@ -1,0 +1,10 @@
+shipment_id|supplier_id|supplier_name|region|product|category|unit_cost|quantity|delivery_days|status|error_reasons
+SHP004|SUP004|Delta Logistics|West|Monitor Arm|Accessories|-45.0|12|4|delivered|unit_cost should be greater than zero 
+SHP005|SUP005|Echo Wholesale|North|Desk Lamp|Furniture|22.75||5|delivered|quantity should be integer
+SHP006|SUP006|Foxtrot Supply|South|Keyboard|Electronics||20|3|delivered|unit_cost should be a valid number
+SHP003|SUP003|Gamma Goods|East|Office Chair|Furniture|85.0|5|8|delayed|duplicate shipment_id & supplier_id
+SHP008||Indigo Partners|West|Mouse Pad|Accessories|3.5|200|1|delivered|supplier_id is blank
+SHP009|SUP009|Jupiter Mart|North|Laptop Dock|Electronics|120.0|0|2|delivered|quantity should be greater than zero
+SHP010|SUP010|Kilo Distributors|South|Webcam|Electronics|60.0|15|-1|delivered|delivery_days should be equal to or greater than 0
+||||||||||parse error
+||||||||||parse error

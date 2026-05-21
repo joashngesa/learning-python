@@ -27,6 +27,10 @@ allowed_status =["delivered", "delayed", "cancelled", "in_transit"]
 
 def validate_data(stock):
 
+    errors = stock.get("error_reasons")
+    if errors:
+        return False, "parse error"
+    
     for column in FILE_COLUMNS:
         if column not in stock:
             return False, f"the column {column} is missing "
@@ -42,18 +46,42 @@ def validate_data(stock):
     delivery_days = stock.get("delivery_days")
     status = stock.get("status")
 
-    if not isinstance (shipment_id, str) or not shipment_id.strip():
-        return False, "shipment_id ahould be a non_empty string"
-    if not isinstance (supplier_id,str) or not supplier_id.strip():
-        return False, "supplier_id is either missing or not a string"
-    if not isinstance (supplier_name,str) or not supplier_name.strip():
-        return False, "supplier name is either missing or not a string"
-    if not isinstance (region,str) or not region.strip():
-        return False, "region is either missing or not a string"
-    if not isinstance (product,str) or not product.strip():
-        return False, "product is either missing or not a string"
-    if not isinstance (category,str) or not category.strip():
-        return False, "category is either missing or not a string"
+    if shipment_id is None:
+        return False, "shipment_id is missing from the data"
+    if not isinstance (shipment_id, str) :
+        return False, "shipment_id is not a string"
+    if not shipment_id.strip():
+        return False, "shipment_id is blank"
+    if supplier_id is None:
+        return False, "the supplier_id is missing from the data"
+    if not isinstance (supplier_id,str):
+        return False, "supplier_id is not a string"
+    if not supplier_id.strip():
+        return False, "supplier_id is blank"
+    if supplier_name is None:
+        return False, "the supplier_name is missing from the data"
+    if not isinstance (supplier_name,str):
+        return False, "supplier name is not a string"
+    if not supplier_name.strip():
+        return False, "the supplier_name is blank"
+    if region is None:
+        return False, "region is missing from the data"
+    if not isinstance (region,str):
+        return False, "region is not a string"
+    if not region.strip():
+        return False, "region is blank"
+    if product is None:
+        return False, "product is missing from the data"
+    if not isinstance (product,str):
+        return False, "product is not a string"
+    if not product.strip():
+        return False, "product is blank" 
+    if category is None:
+        return False, "category isn missing from the data"
+    if not isinstance (category,str):
+        return False, "category is not a string"
+    if not category.strip():
+        return False, "category is blank"
     if not isinstance (unit_cost,(float,int)):
         return False, "unit_cost should be a valid number"
     if unit_cost <= 0:

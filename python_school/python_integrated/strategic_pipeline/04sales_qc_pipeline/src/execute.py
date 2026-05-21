@@ -23,7 +23,7 @@ invalids_column = ["shipment_id","supplier_id","supplier_name","region",
                 "product","category","unit_cost","quantity",
                 "delivery_days","status","error_reasons"]
 suppliers_column = ["supplier_id","supplier_name","shipment_count","total_quantity","total_value","avg_delivery_days"]
-region_column = ["region","shipment_count","total_quantity","total_value","slow_shipment","avg_delivery_days","tot_delivery_days"]
+region_column = ["region","shipment_count","total_quantity","total_value","slow_shipment","avg_delivery_days"]
 
 def execute_shipment_qc (file_path,output_delimiter):
 

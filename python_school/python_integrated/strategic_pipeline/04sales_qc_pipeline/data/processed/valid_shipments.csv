@@ -1,0 +1,12 @@
+shipment_id|supplier_id|supplier_name|region|product|category|unit_cost|quantity|delivery_days|status|shipment_value|delivery_performance
+SHP001|SUP001|Alpha Supplies|North|Laptop Stand|Accessories|35.5|10|3|delivered|355.0|fast
+SHP002|SUP002|Beta Traders|South|Usb Cable|Accessories|5.99|100|2|delivered|599.0|fast
+SHP003|SUP003|Gamma Goods|East|Office Chair|Furniture|85.0|5|8|delayed|425.0|slow
+SHP007|SUP007|Gamma Goods|East|Office Chair|Furniture|85.0|5|8|delayed|425.0|slow
+SHP011|SUP011|Lima Office|East|Filing Cabinet|Furniture|150.0|4|12|delayed|600.0|slow
+SHP012|SUP012|Metro Supply|West|Standing Desk|Furniture|300.0|2|6|cancelled|600.0|normal
+SHP014|SUP014|Oscar Goods|South|Notebook|Stationery|2.5|300|3|delivered|750.0|fast
+SHP015|SUP015|Papa Office|East|Printer Paper|Stationery|6.25|80|4|delivered|500.0|normal
+SHP016|SUP016|Quebec Supply|West|Projector|Electronics|450.0|1|7|delayed|450.0|normal
+SHP017|SUP017|Romeo Logistics|North|Whiteboard|Furniture|75.0|3|5|in_transit|225.0|normal
+SHP018|SUP018|Sierra Goods|South|Pens|Stationery|1.25|500|2|delivered|625.0|fast

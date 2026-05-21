@@ -21,7 +21,7 @@ def read_file(file_path):
                     "delivery_days": "",
                     "status": "",
                     "error_reasons": "the row does not have exactly 10 fields",
-                    "extra_fields": ""
+                    "extra_row_line": ""
                     })
                     continue
                 
@@ -48,7 +48,7 @@ def read_file(file_path):
                     "delivery_days": delivery_days,
                     "status": status,
                     "error_reasons": "",
-                    "extra_fields": ""
+                    "extra_row_line": ""
                 }
 
                 persed.append (raw_data)
