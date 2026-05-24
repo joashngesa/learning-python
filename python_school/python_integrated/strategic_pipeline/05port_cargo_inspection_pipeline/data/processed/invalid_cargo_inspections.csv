@@ -1,0 +1,14 @@
+inspection_id|container_id|vessel_name|terminal|cargo_type|origin_country|weight_kg|risk_score|inspection_minutes|status|error_reasons
+I006|CNR1006|Rapid Tide|Terminal B|Machinery|USA||65|50|Cleared|weight_kg is missing from the data
+I007|CNR1007|Harbor Queen|Terminal C|Food|Brazil|9500||35|Cleared|risk_score is missing from the data
+I008|CNR1008|Coastal Wind|Terminal D|Furniture|Vietnam|7000|55||Pending|inspection_minutes is missing from the data
+I010|CNR1010|Maple Carrier|Terminal B|Food|Canada|-4000|20|28|Cleared|weight_kg should be greater than zero
+I011|CNR1011|Desert Moon|Terminal C|Textiles|Egypt|5000|0|20|Cleared|risk score should be between 1 and 100
+I012|CNR1012|Atlantic Fox|Terminal A|Electronics|South Korea|11000|101|60|Held|risk score should be between 1 and 100
+I013|CNR1002|Northern Star|Terminal B|Food|Canada|8000|25|30|Cleared|duplicate container_id,cargo_type,origin_country
+||||||||||parse error
+I015|CNR1015|Polar Light|Terminal X|Machinery|USA|14000|75|55|Cleared|terminal must be one of terminal A,B,C,D 
+I016|CNR1016|River Pearl|Terminal C||India|6500|45|25|Cleared|cargo_types must be one of electronics,food,chemicals,textiles,machinery,furniture
+I017||Nameless Box|Terminal B|Furniture|USA|7200|50|40|Cleared|container_id is blank
+I018|CNR1018|Storm Falcon|Terminal A|Chemicals|China|20000|92|110|Unknown|status must be one of Cleared,Held,Rejected,Pending
+||||||||||parse error

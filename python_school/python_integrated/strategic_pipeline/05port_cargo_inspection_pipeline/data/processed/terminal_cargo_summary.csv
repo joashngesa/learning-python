@@ -1,0 +1,6 @@
+container_count|total_weight_kg|average_risk_score|average_inspection_minutes|held_count|rejected_count
+2|24000|72.0|45.0|0|0
+1|8000|25.0|30.0|0|0
+2|33000|91.5|105.0|1|1
+1|6000|40.0|25.0|0|0
+1|8700|35.0|32.0|0|0

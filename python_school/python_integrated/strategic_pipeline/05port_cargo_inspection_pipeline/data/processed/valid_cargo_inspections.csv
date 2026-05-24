@@ -1,0 +1,8 @@
+inspection_id|container_id|vessel_name|terminal|cargo_type|origin_country|weight_kg|risk_score|inspection_minutes|status
+I001|CNR1001|Ocean Dawn|Terminal A|Electronics|Japan|12000|72|45|Cleared
+I002|CNR1002|Northern Star|Terminal B|Food|Canada|8000|25|30|Cleared
+I003|CNR1003|Blue Horizon|Terminal A|Chemicals|Germany|15000|88|90|Held
+I004|CNR1004|Silver Wave|Terminal C|Textiles|India|6000|40|25|Cleared
+I005|CNR1005|Ocean Dawn|Terminal A|Electronics|Japan|12000|72|45|Cleared
+I009|CNR1009|Iron Gull|Terminal A|Chemicals|China|18000|95|120|Rejected
+I020|CNR1020|Green Whale|Terminal D|Food|Kenya|8700|35|32|Pending

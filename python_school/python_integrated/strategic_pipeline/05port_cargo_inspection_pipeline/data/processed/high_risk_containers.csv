@@ -1,0 +1,3 @@
+inspection_id|container_id|vessel_name|terminal|cargo_type|origin_country|weight_kg|risk_score|inspection_minutes|status
+I003|CNR1003|Blue Horizon|Terminal A|Chemicals|Germany|15000|88|90|Held
+I009|CNR1009|Iron Gull|Terminal A|Chemicals|China|18000|95|120|Rejected

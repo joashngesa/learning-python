@@ -1,0 +1,21 @@
+inspection_id|container_id|vessel_name|terminal|cargo_type|origin_country|weight_kg|risk_score|inspection_minutes|status
+I001|CNR1001|  ocean dawn  |terminal a|Electronics|Japan|12000|72|45|Cleared
+I002|CNR1002|Northern Star|Terminal B|Food|Canada|8000|25|30|Cleared
+I003|CNR1003|Blue Horizon|Terminal A|Chemicals|Germany|15000|88|90|Held
+I004|CNR1004|Silver Wave|Terminal C|Textiles|India|6000|40|25|Cleared
+I005|CNR1005|Ocean Dawn|Terminal A|Electronics|Japan|12000|72|45|Cleared
+I006|CNR1006|Rapid Tide|Terminal B|Machinery|USA||65|50|Cleared
+I007|CNR1007|Harbor Queen|Terminal C|Food|Brazil|9500|abc|35|Cleared
+I008|CNR1008|Coastal Wind|Terminal D|Furniture|Vietnam|7000|55||Pending
+I009|CNR1009|Iron Gull|Terminal A|Chemicals|China|18000|95|120|Rejected
+I010|CNR1010|Maple Carrier|Terminal B|Food|Canada|-4000|20|28|Cleared
+I011|CNR1011|Desert Moon|Terminal C|Textiles|Egypt|5000|0|20|Cleared
+I012|CNR1012|Atlantic Fox|Terminal A|Electronics|South Korea|11000|101|60|Held
+I013|CNR1002|Northern Star|Terminal B|Food|Canada|8000|25|30|Cleared
+BADROW|CNR1014|Broken Vessel|Terminal A|Food
+I015|CNR1015|Polar Light|Terminal X|Machinery|USA|14000|75|55|Cleared
+I016|CNR1016|River Pearl|Terminal C||India|6500|45|25|Cleared
+I017||Nameless Box|Terminal B|Furniture|USA|7200|50|40|Cleared
+I018|CNR1018|Storm Falcon|Terminal A|Chemicals|China|20000|92|110|Unknown
+I019|CNR1019|Ocean Dawn|Terminal A|Electronics|Japan|12000|72|45|Cleared|EXTRA_FIELD
+I020|CNR1020|Green Whale|Terminal D|Food|Kenya|8700|35|32|Pending
