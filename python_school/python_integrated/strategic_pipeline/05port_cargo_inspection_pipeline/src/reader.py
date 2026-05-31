@@ -25,7 +25,7 @@ def read_data(file_path):
                             "inspection_minutes": "",
                             "status": "",
                             "error_reasons": "row does not have exactly 10 fields",
-                            "extra_lines": ""
+                            "extra_lines": cargo.strip()
                         })
                     continue
 
